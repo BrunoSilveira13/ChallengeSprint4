@@ -48,7 +48,7 @@ describe('TDD Calculadora') do
     it('Deve somar um número flutuante negativo com 0') do
         expect(calculadora.soma(-55.6, 0)).to eq -55.6
     end
-    
+
 #Calculo de subtração
     it('Deve subtrair dois números inteiros') do
         expect(calculadora.subtrai(7, 3)).to eq 4
@@ -105,5 +105,51 @@ describe('TDD Calculadora') do
     it('Deve subtrair um número flutuante negativo com 0') do
         expect(calculadora.subtrai(-55.6, 0)).to eq -55.6
     end
+
+#Calculo de multiplicação
+    it('Deve multiplicar dois números inteiros') do
+        expect(calculadora.multiplica(43, 52)).to eq 2236
+    end    
+
+    it('Deve multiplicar dois números inteiros negativos') do
+        expect(calculadora.multiplica(-53, -6)).to eq 318
+    end 
+
+    it('Deve multiplicar um número inteiro positivo por um número inteiro negativo') do
+        expect(calculadora.multiplica(53, -6)).to eq -318
+    end 
+
+    it('Deve multiplicar um número inteiro negativo por zero') do
+        expect(calculadora.multiplica(-235, 0)).to eq 0
+    end 
+
+    it('Deve multiplicar 0 por um número inteiro') do
+        expect(calculadora.multiplica(0, 2131)).to eq 0
+    end     
+
+    it('Deve multiplicar um número inteiro por zero') do
+        expect(calculadora.multiplica(435, 0)).to eq 0
+    end 
+
+    it('Deve multiplicar dois números flutuantes') do
+        expect(calculadora.multiplica(45.23, 53.38)).to eq 2414.4
+    end   
+
+    it('Deve multiplicar dois números flutuantes negativos') do
+        expect(calculadora.multiplica(-12.22, -43.54)).to eq 532.1
+    end 
+
+    it('Deve multiplicar um número flutuante positivo por um número um negativo') do
+        expect(calculadora.multiplica(14.64, -2.43)).to eq -35.6
+    end
+
+    it('Deve multiplicar um número flutuante por 0') do
+        expect(calculadora.multiplica(12.22, 0)).to eq 0
+    end   
+
+    it('Deve multiplicar um número flutuante negativo por 0') do
+        expect(calculadora.multiplica(-43.54, 0)).to eq 0
+    end 
+
 
 end
