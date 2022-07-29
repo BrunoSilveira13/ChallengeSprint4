@@ -26,4 +26,8 @@ class Calculadora
         resultado.round(1)         
     end
 
+    def cubica(numero)
+        resultado = Math.cbrt(numero)
+        resultado.round(1)         
+    end
 end
