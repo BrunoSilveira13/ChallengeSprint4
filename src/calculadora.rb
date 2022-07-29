@@ -13,4 +13,10 @@ class Calculadora
         resulatado.round(1)     
     end
 
+    def divide(primeiro_numero, segundo_numero)
+        return "erro" if segundo_numero == 0 
+        resultado = primeiro_numero / segundo_numero 
+        resultado.round(1) 
+    end
+
 end
