@@ -48,5 +48,4 @@ describe('TDD Calculadora') do
     it('Deve somar um número flutuante negativo com 0') do
         expect(calculadora.soma(-55.6, 0)).to eq -55.6
     end
-
 end
