@@ -19,4 +19,11 @@ class Calculadora
         resultado.round(1) 
     end
 
+#Tive a ajuda do Gabriel Vanz para utilizar o modulo Math
+    def quadrada(numero)
+        return "erro" if numero < 1
+        resultado = Math.sqrt(numero)
+        resultado.round(1)         
+    end
+
 end
