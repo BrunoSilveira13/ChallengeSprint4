@@ -43,3 +43,9 @@ GitHub - https://github.com/BrunoSilveira13
 E-mail - brunosilveiraserena@gmail.com
 
 >[Compass](https://compass.uol/)
+
+# OBS
+
+Tive um problema com meu git então tive que refazer todos os commits feitos até certo ponto do projeto
+
+* Repositorio do qual o problema ocorreu - https://github.com/BrunoSilveira13/Sprint4_ERROR_
